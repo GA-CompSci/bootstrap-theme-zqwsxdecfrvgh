@@ -1,17 +1,57 @@
 /***** 
 COLOR CHEAT SHEET 
 
+https://coolors.co/7cfef0-6bffb8-2ceaa3-28965a-2a6041
 
+a2d2ff
+
+01FDF6 (blue)
+03FCBA (green)
+E9DF00 (yellow)
+
+
+font-family: "Dancing Script", cursive;
+font-family: "Nerko One", system-ui;
 *****/
+
+
+
+
 
 
 /********************/
 /******* FONTS ******/
 /********************/
-body, p {
 
+
+body, p {
+    font-family: "Bitter", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-family: "Nerko One", system-ui;
 }
+
+.masthead h1{
+    font-family: "Dancing Script", cursive;
+}
+
+
+
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead{
+    background: url(../img/top100games-20-01-banner-1640835563414.jpg);
+}
+
+/********************/
+/******* COLORS ******/
+/********************/
+
+
+
+
+
+
