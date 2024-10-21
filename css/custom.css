@@ -9,7 +9,6 @@ a2d2ff
 03FCBA (green)
 E9DF00 (yellow)
 
-
 font-family: "Dancing Script", cursive;
 font-family: "Nerko One", system-ui;
 *****/
@@ -25,15 +24,15 @@ font-family: "Nerko One", system-ui;
 
 
 body, p {
-    font-family: "Bitter", serif;
+    font-family: "Bitter", serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Nerko One", system-ui;
+h1, h2, h3, h4, h5, h6 .h1 .h2 .h3 .h4 .h5 .h6{
+    font-family: "Nerko One", system-ui !important;
 }
 
 .masthead h1{
-    font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script", cursive !important;
 }
 
 
@@ -46,9 +45,146 @@ header.masthead{
     background: url(../img/top100games-20-01-banner-1640835563414.jpg);
 }
 
+.bth-primary{
+    border:4px solid #01FDF6;
+    background-color:#03FCBA;
+}
+
+.btn-primary:hover{
+    border:4px solid #34b828;
+    color: #061818;
+    background-color:#39bb98;
+}
+
+hr.divider{
+    background-color:darkviolet;
+
+}
+
+
+a.navbar-brand{
+    color:gold !important;
+    text-shadow: 2px 2px 2px black;
+    font-size:35px;
+}
 /********************/
 /******* COLORS ******/
 /********************/
+
+
+header.masthead h1{
+    color: pink;
+
+}
+
+header.masthead p{
+    color:#0dcaf0;
+    font-weight:400;
+    font-size: 25px;
+}
+
+
+
+header.masthead{
+    padding-top: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+
+
+
+
+.nav-link{
+    color:greenyellow;
+}
+
+
+section.bth-primary{
+    background-color: burlywood !important;
+    border:4px solid black  ;
+}
+
+.btn-xl{
+    background-color: darkblue;
+    border: 4px solid black;
+    color: yellow;
+}
+
+
+.btn-x1:hover{
+    background-color: darkblue;
+    border: 4px solid rgb(53, 80, 74);
+    color: yellow;
+}
+
+
+
+
+.text-primary{
+    color:cornflowerblue !important;
+}
+
+
+
+
+
+#mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(100, 210, 50, 0.15);
+    background-color: blueviolet;
+    transition: background-color 0.2s ease;
+}
+
+
+
+#mainNav .navbar-brand:hover {
+    color: #01FDF6 !important;
+  }
+
+
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    color: #2f5ba7;
+    font-family:"Roboto", sans-serif !important;
+    font-weight: 3000;
+    font-size: 30px !important;
+}
+
+
+
+
+/********************/
+/******* Clider ******/
+/********************/
+
+
+
+.carousel-control-next-icon{    
+   
+    background-image: none; 
+    mask-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
+    -webkit-mask-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
+    background-color: #0000ff; /* Set your custom color here (blue in this case) */
+    width: 30px; /* Adjust size if needed */
+    height: 30px;
+}
+
+.carousel-control-prev-icon {
+    background-image: none; /* 移除默认背景 */
+    mask-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+    -webkit-mask-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+    background-color: #0000ff; /* 设置您的自定义颜色（这里是蓝色） */
+    width: 30px; /* 根据需要调整大小 */
+    height: 30px;
+  }
+  
+
+    
+
+
+
+
 
 
 
